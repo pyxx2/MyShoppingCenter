@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AddCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner"
+            android:text="去下单"/>
+
+        <Button
+            android:id="@+id/sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/round_corner"
+            android:textSize="30dp"
+            android:text="购物车" />
+    </LinearLayout>
+</LinearLayout>
