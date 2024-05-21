@@ -4,41 +4,49 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    android:gravity="bottom">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
 
-        <Button
-            android:id="@+id/AddCart"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="5dp"
-            android:textSize="30dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_weight="1"
-            android:background="@drawable/round_corner"
-            android:text="去下单"/>
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/sum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="10dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:textColor="@color/white"
-            android:background="@drawable/round_corner"
-            android:textSize="30dp"
-            android:text="购物车" />
+            <Button
+                android:id="@+id/AddCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:gravity="center"
+                android:text="购物车"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_corner"
+                android:gravity="center"
+                android:text="去下单"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

@@ -34,10 +34,10 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:textColor="#ffA500"
+        android:textColor="#ffA500"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/shopping"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="开始购物"
